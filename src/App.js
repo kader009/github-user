@@ -1,8 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import Display from './Display/Display';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Form from 'react-bootstrap/Form';
+
 
 function App() {
   const [name, setname] = useState('');
